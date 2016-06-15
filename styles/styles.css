@@ -1,0 +1,83 @@
+html,body{
+  margin: 0px;
+  padding: 0px;
+
+}
+video {
+  position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+padding-top: 75px;
+}
+
+.staticTitle > h1 {
+  letter-spacing: 10px;
+  font-size: 2em;
+}
+.staticTitle > p{
+  margin-left: 230px;
+  word-spacing: 10px;
+}
+
+
+#example p{
+	color: white;
+	display: none;
+	text-align: center;
+  font-size: 1.5em;
+}
+#example p:first-child{
+	display: block;
+}
+#example{
+
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 500px;
+  padding-top: 150px;
+}
+.subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+
+
+}
+
+.subscribe>button {
+
+  background: #white;
+  display: none;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid white 1px;
+  text-decoration: none;
+}
+
+.subscribe>button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
